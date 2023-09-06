@@ -1,5 +1,9 @@
 # Hypercasual Runner Game
 
+
+<img width="233" alt="image" src="https://github.com/inanakmugan/Hypercasual-Runner/assets/6693482/603422df-b969-4d96-85ad-aeedcda29d83">
+
+
 Built with Unity and Autodesk Maya. 
 
 This is a hypercasual runner game project that I developed. 
