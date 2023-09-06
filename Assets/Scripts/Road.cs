@@ -4,7 +4,6 @@ public class Road : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] Vector3 size;
-    // Start is called before the first frame update
 
     public float returnZ()
     {

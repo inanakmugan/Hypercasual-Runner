@@ -43,6 +43,7 @@ public class CrowdSystem : MonoBehaviour
         return radius * Mathf.Sqrt(runnersParent.childCount);
     }
 
+    //finds correct bonus with a switch case statament
     public void ApplyBonus(BonusType bonusType, int bonusAmount)
     {
         switch (bonusType)

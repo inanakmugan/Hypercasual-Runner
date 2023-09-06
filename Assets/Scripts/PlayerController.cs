@@ -14,11 +14,6 @@ public class PlayerController : MonoBehaviour
     Vector3 clickedScreenPosition;
     Vector3 clickedPlayerPosition;
 
-    void Start()
-    {
-
-    }
-
 
     void Update()
     {

@@ -10,12 +10,6 @@ public class PlayerAnimation : MonoBehaviour
         StartRunning();
     }
 
-
-    void Update()
-    {
-
-    }
-
     private void StartRunning()
     {
         animator.SetBool("Run", true);

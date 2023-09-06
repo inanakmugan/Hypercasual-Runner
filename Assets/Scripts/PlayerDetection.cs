@@ -16,7 +16,7 @@ public class PlayerDetection : MonoBehaviour
         DetectDoors();
     }
 
-
+    //not used 
     /* void OnCollisionEnter(Collision other)
     {
         GameObject collision = other.gameObject;
