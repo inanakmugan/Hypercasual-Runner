@@ -3,11 +3,13 @@ using UnityEngine;
 public class PlayerDetection : MonoBehaviour
 {
     CrowdSystem crowdSystem;
+    GameManager gameManager;
 
 
     void Start()
     {
         crowdSystem = FindObjectOfType<CrowdSystem>();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
 
@@ -45,8 +47,10 @@ public class PlayerDetection : MonoBehaviour
                 door.Disable();
 
                 crowdSystem.ApplyBonus(bonusType, bonusAmount);
-
-
+            }
+            if (detectedColliders[i].tag == "Finish")
+            {
+                gameManager.Finish();
             }
         }
     }

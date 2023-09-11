@@ -28,6 +28,12 @@ public class PlayerController : MonoBehaviour
         transform.position += Vector3.forward * Time.deltaTime * moveSpeed;
     }
 
+    public void Stop()
+    {
+        moveSpeed = 0;
+    }
+
+
     private void SideControl()
     {
         if (Input.GetMouseButtonDown(0))

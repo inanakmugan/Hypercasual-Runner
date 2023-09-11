@@ -14,4 +14,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator.SetBool("Run", true);
     }
+
+    public void StopRunning()
+    {
+        animator.SetBool("Run", false);
+    }
 }
