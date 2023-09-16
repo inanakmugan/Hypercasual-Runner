@@ -52,6 +52,11 @@ public class PlayerDetection : MonoBehaviour
             {
                 gameManager.Finish();
             }
+
+            if (detectedColliders[i].tag == "Obstacle")
+            {
+
+            }
         }
     }
 
