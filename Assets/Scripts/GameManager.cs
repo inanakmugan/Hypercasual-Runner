@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     bool isFinished = false;
 
+    enum GameState { menu, game, success, gameover }
+
     private void Start()
     {
         playerController = FindObjectOfType<PlayerController>();
