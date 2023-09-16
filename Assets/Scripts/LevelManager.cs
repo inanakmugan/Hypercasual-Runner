@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -17,5 +18,16 @@ public class LevelManager : MonoBehaviour
     public void ResetLevel()
     {
         level = 1;
+    }
+
+    public void RestartGame()
+    {
+        var index = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(index);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
